@@ -88,8 +88,8 @@ img {
     flex-wrap: wrap;
     flex-direction: row;
     /* justify-content: center; */
-    height: 75%;
-    width: 45%;
+    height: 73%;
+    width: 44%;
     border-radius: 10px;
 }
 .card > section {
@@ -123,43 +123,44 @@ img {
     
 }
 .subj-name {
-    margin: 10px;
     font-family: 'Montserrat';
     font-size: 12px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 .description {
-    margin: 10px;
     font-family: 'Montserrat';
-    line-height: 1.6em;
+    line-height: 1.7em;
 }
 .price {
     display: flex;
     font-family: 'Fraunces';
-    font-size: xx-large;
+    font-size: 2.3em;
     color: var(--Dark-cyan);
-    margin: 10px;
 }
 .prev-price {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Montserrat';
     color: var(--Dark-grayish-blue);
     text-decoration: line-through;
-    margin: 10px;
 }
 .card button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    height: 50px;
+    margin: 15px 15px 15px 10px ;
     background-color: var(--Dark-cyan);
     color: var(--White);
     font-family: 'Montserrat';
     font-weight: 700;
+    font-size: 14px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+.card button  svg {
+    margin: 10px;
 }
 @media screen and (max-width:390px) {
     .container{
