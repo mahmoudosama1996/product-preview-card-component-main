@@ -5,7 +5,7 @@
 *  {
     margin: 0;
     box-sizing: border-box;
-    overflow:hidden;
+    /* overflow:hidden; */
    
 }
 body {
@@ -97,6 +97,10 @@ img {
 }
 
 
+.card-img{
+    /* display: flex; */
+}
+
 .mobile-img  {
     display: none;
 }
@@ -163,10 +167,14 @@ img {
     margin: 10px;
 }
 @media screen and (max-width:390px) {
+    * {
+        /* overflow:visible; */
+    }
     .container{
         padding: 25px 15px;
         justify-content:;
         align-items: start;
+        height: auto;
     }
     .card {
         flex-direction: column;
@@ -178,7 +186,7 @@ img {
         /* height: 50%; */
     }
     .content {
-        padding:0;
+        padding:10px;
     }
     .dsktop-img {
         display: none;
